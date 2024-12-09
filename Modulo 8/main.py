@@ -24,4 +24,5 @@ async def analyze_text(input: TextInput):
     return {"text": text, "sentiment": sentiment}
 
 
+
 app.mount("/static", StaticFiles(directory="static"), name="static")
